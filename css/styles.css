@@ -1,3 +1,29 @@
 body {
-    background-color: white;
+    background-color: #e6ffff;
+    margin: 0px;
+}
+
+.header-nav {
+    background-color: #b3e5fc;
+    display: flex;
+    padding: 10px;
+    /* box-shadow: 0px 2px 5px grey; */
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    margin-right: auto;
+}
+
+.nav-links-container {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    padding: 0px;
+}
+
+.nav-link {
+  background: #f48fb1 !important;
+  margin-left: 15px !important;
 }
