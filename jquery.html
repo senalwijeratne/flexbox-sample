@@ -1,0 +1,48 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" href="./images/donut-logo.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/jquery.css">
+    <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.indigo-pink.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <title>Flexbox Sample</title>
+</head>
+
+<body>
+    <header class="header-nav">
+        <img class="logo" src="./images/donut-logo.svg" alt="Company Logo">
+        <ul class="nav-links-container">
+            <li><a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="#">HOME</a></li>
+            <li><a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="#">STORE</a></li>
+            <li><a class="mdl-button mdl-js-button mdl-js-ripple-effect" href="jquery.html">jQuery</a></li>
+        </ul>
+    </header>
+
+    <div class="jquery-container">
+
+        <div class="jquery-content">
+            <div class="jquery-search">
+                <h3>Load photos from Flickr</h3>
+                <form action="" id="searchForm">
+                    <input  id="searchInput" type="text" name="searchWord" placeholder='Eg: "dogs"'>
+                    <button id="searchButton" type="submit">Search</button>
+                </form>
+            </div>
+            <div id="jquery-images">
+                <h5>Search for something...</h5>
+            </div>
+        </div>
+
+    </div>
+
+    <footer class="footer">
+        <h6 id="copyright-text"><a href="https://senalwijeratne.com" target="_blank">Senal Wijeratne &COPY; 2018</a></h6>
+    </footer>
+    <script src="./flickr.js"></script>
+</body>
+</html>
